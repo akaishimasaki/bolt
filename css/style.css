@@ -7,7 +7,11 @@
 }
 
 body {
-  font-family: 'Raleway','Lato',sans-serif;
+  font-family: 'Lato';
+}
+
+.font-Raleway {
+  font-family: "Raleway";
 }
 
 /* headerのｃｓｓ */
@@ -47,8 +51,11 @@ body {
 
 /*main*/
 
+.main__bolt {
+  padding-top: 70px;
+}
+
 .Bolt-Theme {
-  margin-top: 70px;
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -59,7 +66,7 @@ body {
 }
 .Bolt-Theme__text {
   font-size: 90px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #74cfae;
 }
 
@@ -85,19 +92,19 @@ body {
 
 .WHAT-WE-CAN-DO__content {
   color: #FFF;
-  width: 690px;
   text-align:center;
+  width: 670px;
 }
 
 .WHAT-WE-CAN-DO__text {
   font-size: 24px;
+  margin-bottom: 35px;
 }
 
 .WHAT-WE-CAN-DO__comment {
   font-size: 20px;
   line-height: 22px;
-  margin-top: 35px;
-  word-break: break-all;
+  word-break:keep-all
 }
 
 /*work*/
@@ -111,6 +118,7 @@ body {
 .work__title {
   font-size: 24px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .work__inner {
@@ -140,10 +148,8 @@ body {
   margin-left: 0;
 }
 
-.work__box__item:nth-child(1),
-.work__box__item:nth-child(2),
-.work__box__item:nth-child(3) {
-  margin-top: 40px;
+.work__box__item:nth-child(-n+3) {
+  margin-top: 0;
 }
 
 
@@ -189,11 +195,11 @@ body {
   text-align: center;
   color: #FFF;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .SKILLS__box {
   display: flex;
-  height: 300px;
   justify-content: center;
   align-items: center;
 }
@@ -233,10 +239,13 @@ body {
 .SNS__item {
   width: 185px;
   font-size: 3em;
-  color: #74cfae;
   text-align: center;
   line-height: 100px;
-  transition: all 0.3;
+  transition: all 0.3s;
+}
+
+.item {
+  color: #74cfae;
 }
 
 .SNS__item:hover {
