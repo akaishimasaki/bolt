@@ -179,6 +179,9 @@ body {
 .SKILLS {
   background-color: #4e4e4e;
   width: 100%;
+}
+
+.SKILLS__inner {
   padding: 70px 0 100px 0;
 }
 
