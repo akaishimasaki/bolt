@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: 'Raleway','Lato',sans-serif;
+}
+
 /* headerのｃｓｓ */
 
 .header {
@@ -47,12 +51,11 @@
   margin-top: 70px;
   width: 100%;
   background-color: #f2f2f2;
-  padding-top: 250px;
-  padding-bottom: 250px;
 }
 
 .Bolt-Theme__content {
   text-align: center;
+  padding: 250px 0 250px 0;
 }
 .Bolt-Theme__text {
   font-size: 90px;
@@ -82,7 +85,7 @@
 
 .WHAT-WE-CAN-DO__content {
   color: #FFF;
-  width: 745px;
+  width: 690px;
   text-align:center;
 }
 
