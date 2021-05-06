@@ -28,11 +28,11 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   z-index: 10;
   width: 100%;
   background-color: #fff;
 }
+
 
 .header-inner {
   display: flex;
@@ -58,6 +58,9 @@ img {
   color: #333;
 }
 
+.hamburger {
+  display: none;
+}
 /*main*/
 
 .main__bolt {
@@ -267,10 +270,131 @@ img {
 }
 
 @media screen and (max-width:1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .WHAT-WE-CAN-DO__box {
+    display: block;
+  }
+  
+  .WHAT-WE-CAN-DO__box {
+    padding: 50px 0 25px;
+    text-align: center;
+  }
+
+  .WHAT-WE-CAN-DO__content {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .WHAT-WE-CAN-DO__comment {
+    margin-top: 35px;
+  }
+
+  .work__inner {
+    padding: 60px 0 70px;
+  }
+
+  .work__box {
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+  }
+
+  .work__box__item {
+    margin: auto;
+  }
+
+  .work__box__item:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .work__box__item:first-child {
+    margin-top: 0;
+  }
+
+  .work__content {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .work__button {
+    margin: 40px 0 0;
+  }
+
+  .work__text {
+    width: auto;
+  }
+
+  .SKILLS__box {
+    display: block;
+    text-align: center;
+  }
+
+  .SKILLS__item {
+    margin: 88px 0 0;
+  }
+
+  .SKILLS__item:first-child {
+    margin-top: 0;
+  }
 
 }
 
-@media screen and (max-width:767) {
+@media screen and (max-width:767px) {
+  
+  .inner {
+    width: 97%;
+  }
 
+  .header__button {
+    display: none;
+  }
 
+  .hamburger {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 35px;
+    display: block;
+  }
+
+  .hamburger__line {
+    background-color: #ddd;
+    height: 3px;
+    width: auto;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+
+  .hamburger__line:first-child {
+    margin-top: 0;
+  }
+  
+
+  .Bolt-Theme__content {
+    padding: 160px 0 130px;
+  }
+
+  .Bolt-Theme__text {
+    font-size: 80px;
+  }
+
+  .Bolt-Theme__text-bottom {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .SNS__content {
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .SNS__item {
+    width: auto;
+    padding: 0 15px;
+  }
 }
