@@ -10,6 +10,14 @@ body {
   font-family: 'Lato';
 }
 
+a {
+  display: inline-block;
+}
+
+img {
+  vertical-align: bottom;
+}
+
 .font-Raleway {
   font-family: "Raleway";
 }
@@ -19,6 +27,8 @@ body {
 .header {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
   width: 100%;
   background-color: #fff;
@@ -157,7 +167,6 @@ body {
 }
 
 .work__button {
-  display: block;
   background-color: #74cfae;
   font-size: 12px;
   padding: 14px 20px;
@@ -230,10 +239,6 @@ body {
   transition: all 0.3s;
 }
 
-.SNS__link {
-  display: block;
-}
-
 .item {
   color: #74cfae;
 }
@@ -248,12 +253,24 @@ body {
   background-color: #74cfae;
 }
 
-.footer__content {
+.footer__inner {
   padding: 20px 0 25px;
+}
+
+.footer__content {
   font-size: 14px;
 }
 
 .footer__text {
   color: #fff;
   text-align: right;
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767) {
+
+
 }
