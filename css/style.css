@@ -394,7 +394,6 @@ img {
   }
 
   .SNS__item {
-    width: auto;
-    padding: 0 15px;
+    width: 100%;
   }
 }
