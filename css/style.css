@@ -140,11 +140,14 @@ img {
 
 .work__box__item {
   margin: 80px 0 0 100px;
+}
+
+.work__box__img {
   opacity: 0.7;
   transition: all 0.3s;
 }
 
-.work__box__item:hover {
+.work__box__img:hover {
   opacity: 1;
 }
 
@@ -242,6 +245,10 @@ img {
   transition: all 0.3s;
 }
 
+.SNS__item__i {
+  display: block;
+}
+
 .item {
   color: #74cfae;
 }
@@ -270,6 +277,7 @@ img {
 }
 
 @media screen and (max-width:1199px) {
+
   .inner {
     width: 97%;
   }
@@ -305,6 +313,7 @@ img {
   .work__box__item {
     margin: auto;
   }
+
 
   .work__box__item:nth-child(3n+1) {
     margin-top: 80px;
@@ -344,10 +353,6 @@ img {
 }
 
 @media screen and (max-width:767px) {
-  
-  .inner {
-    width: 97%;
-  }
 
   .header__button {
     display: none;
@@ -358,7 +363,7 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 35px;
-    display: block;
+    display: inline-block;
   }
 
   .hamburger__line {
